@@ -97,6 +97,7 @@ public class A
   @BeforeClass
   public void maximizebrowser() 
   {
+	  System.out.println("new added from eclips");
 	System.out.println("In maximizebrowser method under beforeclass");
 	driver.manage().window().maximize();
   }
